@@ -5,6 +5,10 @@ import './css/App.css';
 
 import background from './images/banner/logo_nuevo_blanco.png'
 import whatsApp from './images/icon/WhatsApp.png'
+import intagram from './images/icon/instagram.png'
+import sitioWeb from './images/icon/web-domain.png';
+import facebook from './images/icon/facebook.png';
+import youtube from './images/icon/youtube.png'
 
 function App() {
   return (
@@ -31,10 +35,10 @@ function App() {
         <article className='social'>
           <ul>
             <li><a href="https://api.whatsapp.com/send?phone=18493308701" target='_blank'><span><img src={whatsApp} /></span><span>WhatsApp</span></a></li>
-            <li><a href="#"><span><img src={whatsApp} /></span><span>WhatsApp</span></a></li>
-            <li><a href="#"><span><img src={whatsApp} /></span><span>WhatsApp</span></a></li>
-            <li><a href="#"><span><img src={whatsApp} /></span><span>WhatsApp</span></a></li>
-            <li><a href="#"><span><img src={whatsApp} /></span><span>WhatsApp</span></a></li>
+            <li><a href="#"><span><img src={intagram} /></span><span>Instagram</span></a></li>
+            <li><a href="#"><span><img src={sitioWeb} /></span><span>Sitio Web</span></a></li>
+            <li><a href="#"><span><img src={facebook} /></span><span>Facebook</span></a></li>
+            <li><a href="#"><span><img src={youtube} /></span><span>YouTube</span></a></li>
           </ul>
         </article>
       </section>
